@@ -1,5 +1,5 @@
-from python
+FROM python
 
-copy print.py /
+COPY print.py /
 
-entrypoint ["python", "/print.py" ]
+ENTRYPOINT ["python", "/print.py" ]
